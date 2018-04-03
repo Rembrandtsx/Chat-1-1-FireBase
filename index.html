@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat de FireBase</title>
+<meta charset="utf-8">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" />
+
+
+
+
+
+<style>
+	#login{
+		height: 100vh;
+		position:  fixed;
+		z-index: 10;
+		width: 100%
+
+	}
+	.internal{
+
+		margin:20px 0px;
+	}
+
+
+
+</style>
+
+</head>
+<body>
+
+
+
+
+<div id="login" class="white row middle-xs center-xs ">
+	<div class="col-xs-7 z-depth-2">
+		<div class="box internal">
+			<p>Inicia sesion para chatear</p>
+
+			<button id="start-login" class="btn btn-raised red white-text">INICIAR SESION CON GOOGLE</button>
+
+
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
